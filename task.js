@@ -1,7 +1,6 @@
 const products = document.querySelectorAll('.products .product');
 
 for (const product of products) {
-    console.log(product);
     const productQuantity = product.querySelector('.product__controls .product__quantity');
 
     const productQuantityControls = productQuantity.querySelector('.product__quantity-controls');
